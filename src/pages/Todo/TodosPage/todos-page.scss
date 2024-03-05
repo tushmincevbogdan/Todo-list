@@ -1,0 +1,19 @@
+.todos-page {
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  flex-direction: column;
+
+  .content {
+    flex-grow: 1;
+
+    .MuiButtonGroup-root {
+      margin-top: 20px;
+    }
+  }
+
+  a {
+    font-size: 17px;
+    color: black;
+  }
+}
